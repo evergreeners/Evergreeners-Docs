@@ -1,49 +1,50 @@
-# Starlight Starter Kit: Basics
+# Evergreeners Documentation 🌲
 
-[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+The official documentation for [Evergreeners](https://github.com/evergreeners/Evergreeners-main), the system designed to track developer consistency and cultivate your digital garden.
 
-```
-npm create astro@latest -- --template starlight
-```
+This site is built with [Starlight](https://starlight.astro.build/) and [Astro](https://astro.build/).
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Getting Started
 
-## 🚀 Project Structure
+### Prerequisites
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+You'll need [Node.js](https://nodejs.org/) (v18 or higher) and a package manager (npm, pnpm, or bun).
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+### Installation
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/evergreeners/Evergreeners-Docs.git
+   cd Evergreeners-Docs
+   ```
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-Static assets, like favicons, can be placed in the `public/` directory.
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
 
-## 🧞 Commands
+The documentation will be available at `http://localhost:4321`.
 
-All commands are run from the root of the project, from a terminal:
+## 📂 Project Structure
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- `src/content/docs/`: Contains all the documentation pages written in Markdown (`.md`) or MDX (`.mdx`).
+- `astro.config.mjs`: Configuration for the Astro site and Starlight sidebar.
+- `public/`: Static assets like icons and images.
 
-## 👀 Want to learn more?
+## 🤝 Contributing
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+We welcome contributions to the documentation! 
+
+1. Create a new branch for your changes.
+2. Add or edit files in `src/content/docs/`.
+3. If you add new pages, update the sidebar in `astro.config.mjs`.
+4. Open a Pull Request with a clear description of your changes.
+
+## 📄 License
+
+This documentation is open-source and licensed under the **MIT License**.
