@@ -7,6 +7,13 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Evergreeners Docs',
+			logo: {
+				src: './src/assets/logo.png',
+			},
+			customCss: [
+				'./src/styles/custom.css',
+			],
+			favicon: '/favicon.png',
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/evergreeners/evergreeners' }
 			],

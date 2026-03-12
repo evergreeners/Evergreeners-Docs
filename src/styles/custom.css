@@ -1,0 +1,29 @@
+:root {
+	--sl-color-accent-low: #064e3b;
+	--sl-color-accent: #10b981;
+	--sl-color-accent-high: #34d399;
+	--sl-color-white: #ffffff;
+	--sl-color-gray-1: #eceef2;
+	--sl-color-gray-2: #c0c8d1;
+	--sl-color-gray-3: #8893a7;
+	--sl-color-gray-4: #545861;
+	--sl-color-gray-5: #353941;
+	--sl-color-gray-6: #23262d;
+	--sl-color-black: #000000;
+}
+
+/* Custom styles to match Evergreeners */
+[data-theme='dark'] {
+	--sl-color-accent-low: #064e3b;
+	--sl-color-accent: #10b981;
+	--sl-color-accent-high: #6ee7b7;
+	--sl-color-bg: #000000;
+}
+
+.hero-tagline {
+	color: var(--sl-color-gray-2);
+}
+
+.starlight-aside--note {
+	border-color: var(--sl-color-accent);
+}
