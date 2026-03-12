@@ -1,4 +1,4 @@
-# Evergreeners Documentation 🌲
+# Evergreeners Documentation
 
 The official documentation for [Evergreeners](https://github.com/evergreeners/Evergreeners-main), the system designed to track developer consistency and cultivate your digital garden.
 
