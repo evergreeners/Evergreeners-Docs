@@ -1,4 +1,8 @@
-# Evergreeners Documentation 🌲
+<div align="center">
+  <img src="public/logo.png" width="120" height="120" alt="Evergreeners Logo" />
+  <h1>Evergreeners Documentation</h1>
+  <p><strong>Track your consistency. Grow your legacy.</strong></p>
+</div>
 
 The official documentation for [Evergreeners](https://github.com/evergreeners/Evergreeners-main), the system designed to track developer consistency and cultivate your digital garden.
 
